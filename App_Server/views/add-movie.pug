@@ -1,0 +1,18 @@
+extends layout
+block content
+    h1= title
+    form(action="",method="post" ,role="form")
+
+            input#name.form-control(type="text",name="movieName",placeholder="movieName")
+
+            input#producer.form-control(type="text" name="producer", placeholder="producer")
+
+            input#actor.form-control(type="text",name="actor",placeholder="actor")
+
+            input#actress.form-control(type="text",name="actress",placeholder="actress")
+
+            input#budget.form-control(type="text" name="budget",placeholder="budget")
+
+            input#type.form-control(type="text",name="type",placeholder="type")
+
+            button.btn.btn-success(type="submit") Add

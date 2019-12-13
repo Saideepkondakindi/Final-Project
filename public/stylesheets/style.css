@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+li a {
+    float: left;
+}
+
+li a:hover{
+    display: block;
+    background-color: black;
+    color:white;
+}
+
+#list{
+    display: block;
+    float: left;    
+}
+
+.info{
+    font-size: 15px;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;}
